@@ -61,12 +61,15 @@
 }
 .topbarIcons{
     display: flex;
+    
 }
 
-.topbarIconItems{
+.topbarIconItem{
     margin-right:15px ;
     cursor: pointer;
     position: relative;
+   
+ 
 }
 
 .topbarIconBadge{
@@ -77,6 +80,7 @@
     color:white;
     position: absolute;
     top: -5px;
+    right: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
